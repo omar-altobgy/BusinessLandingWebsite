@@ -1,0 +1,73 @@
+/* Font */
+html {
+    font-family: Corbel, Cambria, Calibri, sans-serif;
+}
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #127;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.logo {
+    padding: 0.5rem;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.navbar-link {
+    background-color: #127;
+    color: #db4;
+    text-decoration: none;
+    float: right;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/rainbow-vortex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-title {
+    margin: 0;
+    color: #fff;
+}
+
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+}
+
+
+/* General */
+.bold {
+    font-weight: bold;
+}
