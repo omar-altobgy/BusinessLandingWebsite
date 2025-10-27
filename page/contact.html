@@ -31,19 +31,17 @@
                 <section>
                     <h2>Online Enquiry</h2>
                     <form method="POST" action="#" class="contact-form">
-                        <label>
-                            Name
-                            <input type="text" name="name" placeholder="e.g. John Smith">
-                        </label>
-                        <label>
-                            Email
-                            <input type="email" name="email" placeholder="e.g. name@domain.tld" required>
-                        </label>
-                        <label>
-                            Message
-                            <textarea name="message" rows="5" placeholder="Type your message here (between 2 and 500 characters)"
-                                      required minlength="2" maxlength="500"></textarea>
-                        </label>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="e.g. John Smith">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="e.g. name@domain.tld" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5"
+                                  placeholder="Type your message here (between 2 and 500 characters)"
+                                  required minlength="2" maxlength="500"></textarea>
+
                         <div class="button-group">
                             <input type="submit" value="SUBMIT">
                             <input type="reset" value="RESET">
